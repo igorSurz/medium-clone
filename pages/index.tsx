@@ -8,7 +8,6 @@ interface Props {
 }
 
 export default function Home({ posts }: Props) {
-  console.log(posts)
   return (
     <div className="">
       <Head>
